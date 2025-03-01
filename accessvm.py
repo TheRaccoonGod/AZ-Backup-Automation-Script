@@ -13,9 +13,9 @@ def run_command_on_vm(ssh_client, command):
 
 
 def main():
-     username = 'array'
-     password = 'ArrayAdmin1111'
-     hostname = '13.88.56.124'
+     username = ''
+     password = ''
+     hostname = ''
      port = 22
 
      ssh_client = paramiko.SSHClient()
